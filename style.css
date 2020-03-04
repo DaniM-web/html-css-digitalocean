@@ -43,6 +43,7 @@ i.fa-bars{
 .jumbotron{
   background-image: url("img/bg-j.jpg");
   background-size: cover;
+  margin-bottom: 0;
 }
 
 .jumbosx h1{
@@ -89,4 +90,29 @@ p.termslink {
 }
 .termslink a{
   text-decoration: underline;
+}
+/* Sponsor section */
+#sponsor{
+  background-color: #f3f5f9;
+  text-align: center;
+  padding: 40px 0;
+}
+.img-container img{
+  max-width: 150px;
+  max-height: 100px;
+  line-height: normal;
+  vertical-align: super;
+  padding-top: 30px;
+}
+img.splunk{
+  max-width: 130px;
+  padding-top: 45px;
+}
+a.stories-link{
+  color: #0069ff;
+  font-size: 16px;
+}
+i.fa-chevron-right{
+  font-size: 13px;
+  vertical-align: middle;
 }
