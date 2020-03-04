@@ -1,0 +1,40 @@
+body{
+  padding-top: 70px;
+  font-family: 'Sailec-Regular','system-ui',-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica Neue',Helvetica,Arial,sans-serif;
+  background-color: red;
+}
+
+a:active, a:visited, a:hover{
+  text-decoration: none;
+}
+
+.nav-custom{
+  padding: 20px 20px 0 0;
+  background-color: #fff;
+}
+
+
+.list-item-nav a{
+  color: #031b4e;
+  font-size: 16px;
+  line-height: normal;
+}
+.list-item-nav a:hover{
+  color: #0069ff;
+}
+
+a.btn-signup{
+  font-size: 16px;
+  color: #0069ff;
+  border: 1px solid #0069ff;
+  vertical-align: sub;
+}
+a.btn-signup:hover{
+  color: #fff;
+  background-color: #0069ff;
+}
+
+i.fa-bars{
+  color: #0069ff;
+  font-size: 20px;
+}
