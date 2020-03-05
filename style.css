@@ -98,14 +98,14 @@ p.termslink {
   padding: 40px 0;
 }
 .img-container img{
-  max-width: 150px;
+  max-width: 100%;
   max-height: 100px;
   line-height: normal;
   vertical-align: super;
   padding-top: 30px;
 }
 img.splunk{
-  max-width: 130px;
+  max-width: 100%;
   padding-top: 45px;
 }
 a.stories-link{
@@ -115,4 +115,40 @@ a.stories-link{
 i.fa-chevron-right{
   font-size: 13px;
   vertical-align: middle;
+}
+/* Sezione optimizer */
+.page-white{
+  padding: 30px 0;
+  background-color: #fff;
+}
+.textpage{
+text-align: center;
+}
+
+.listsx{
+  margin-left: 10%;
+  margin-top: 10%;
+  padding-left: 30px;
+  font-size: 22px;
+  border-left: 1px solid grey;
+}
+.listsx li{
+  padding: 10px 0;
+  opacity: 0.9;
+}
+
+.rowsuperiore{
+  margin-top: 10%;
+}
+.rowsuperiore h4{
+  font-size: 24px;
+  line-height: 120%;
+  color: #031b4e;
+}
+.rowsuperiore p{
+  font-family: 'Sailec-Light';
+  font-size: 20px;
+  line-height: 120%;
+  margin-top: 20px;
+  color: #5b6987;
 }
