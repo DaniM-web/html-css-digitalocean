@@ -124,6 +124,14 @@ i.fa-chevron-right{
 .textpage{
 text-align: center;
 }
+.textpage h3{
+  color: #031b4e;
+  font-size: 40px;
+}
+.textpage p{
+  color: #5b6987;
+  font-size: 20px;
+}
 
 .listsx{
   margin-left: 10%;
@@ -151,4 +159,44 @@ text-align: center;
   line-height: 120%;
   margin-top: 20px;
   color: #5b6987;
+}
+/* Developer designed section */
+.darkwhitepage{
+  background-color: #f3f5f9;
+  text-align: center;
+  padding: 40px 0;
+}
+.kuberdiv img{
+  max-width: 100%;
+  height: auto;
+}
+
+.kuberdiv{
+  padding-top: 30px;
+}
+.freccia{
+  display: inline-block;
+  padding-top: 350px;
+  cursor: pointer;
+}
+.freccia i{
+  color: #5b6987;
+  font-size: 30px;
+}
+.freccia i:hover{
+  color: #031b4e;
+}
+.radiotext{
+  margin-top: 30px;
+}
+li.active1 i{
+  background-color: #0069ff;
+  border-radius: 100%;
+}
+.pagination > li > a,
+.pagination > li > span {
+  line-height: 1.42857143;
+  color: #0069ff;
+  background-color: inherit;
+  border: 0px solid #ddd;
 }
