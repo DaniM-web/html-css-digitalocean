@@ -273,6 +273,7 @@ tr.rowregiontab:last-child{
     margin-top: 50px;
   }
 }
+/* rockerbox section */
  .rockerbox img{
    max-width: 100%;
    height: auto;
@@ -298,6 +299,7 @@ tr.rowregiontab:last-child{
 span.accountspan{
   display: block;
   text-align: center;
+  margin-bottom: 40px;
 }
 a.accountlink{
   color: #0069ff;
@@ -306,4 +308,58 @@ a.accountlink{
   border: 1px solid #fff;
   border-radius: 15px;
   background-color: #fff;
+}
+
+a.accountlink:hover{
+  color: #fff;
+  background-color: #0069ff;
+}
+/* FOOTER */
+footer{
+  padding: 60px 0;
+  background-color: darkblue;
+}
+
+li.foot-title{
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+a.footlink{
+  font-size: 18px;
+  color: grey;
+}
+
+.footerlist li{
+  padding: 5px 0;
+}
+
+a.footlink:hover{
+  color: #fff;
+  text-decoration: underline;
+}
+.logosponsor{
+  width: 100%;
+  color: grey;
+}
+.logosponsor img{
+  max-width: 15%;
+  margin-bottom: 15px;
+}
+
+a.social-link{
+  font-size: 25px;
+  color: #5b6987;
+}
+a.social-link:hover{
+  color: #fff;
+}
+
+span#myname{
+  display: inline-block;
+  color: #fff;
+  font-size: 18px;
+  font-style: italic;
+  box-shadow: 5px 5px 10px black;
+  margin-left: 3px;
 }
